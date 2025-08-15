@@ -14,6 +14,8 @@ updateTheme();
 const ws = new WebSocket("/websocket");
 let timeout;
 
+setInterval(() => ws.send("ping"), 30 * 1000)
+
 blahaj.addEventListener("click", () => {
     ws.send("click");
 });
