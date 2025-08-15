@@ -7,6 +7,7 @@
         "@elysiajs/html": "^1.3.1",
         "@elysiajs/static": "^1.3.0",
         "elysia": "latest",
+        "lucide-static": "^0.539.0",
       },
       "devDependencies": {
         "bun-types": "latest",
@@ -77,6 +78,8 @@
     "ieee754": ["ieee754@1.2.1", "", {}, "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA=="],
 
     "is-fullwidth-code-point": ["is-fullwidth-code-point@3.0.0", "", {}, "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg=="],
+
+    "lucide-static": ["lucide-static@0.539.0", "", {}, "sha512-ybhtBJOeIgY1d1WV3vxJkSOoWi1EaYOkA15WYtct9/kX3+HSTCdbkeM0fQ4i5JxsKmp874J8dsNI92r4t5qCzg=="],
 
     "ms": ["ms@2.1.3", "", {}, "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="],
 

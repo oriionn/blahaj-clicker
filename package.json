@@ -8,7 +8,8 @@
   "dependencies": {
     "@elysiajs/html": "^1.3.1",
     "@elysiajs/static": "^1.3.0",
-    "elysia": "latest"
+    "elysia": "latest",
+    "lucide-static": "^0.539.0"
   },
   "devDependencies": {
     "bun-types": "latest"
