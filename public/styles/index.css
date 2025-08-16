@@ -24,6 +24,7 @@ h1 {
 }
 
 h2 {
+    margin-top: 20px;
     font-weight: 400;
 }
 
@@ -66,10 +67,26 @@ h2 {
     100% { transform: scale(1); }
 }
 
-#error {
+#footer {
     position: absolute;
     bottom: 10px;
     text-align: center;
+}
+
+body.dark #footer .info a {
+    color: white;
+}
+
+body #footer .info a {
+    color: black;
+    text-decoration-style: dotted;
+}
+
+body #footer .info a:hover {
+    text-decoration-style: solid;
+}
+
+#error {
     color: red;
 }
 
@@ -100,4 +117,21 @@ body.dark #mode > div {
     background: url(/lucide/sun.svg?color=white);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.progress {
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    background: #525252;
+    border-radius: 10px;
+
+    padding: 4px;
+}
+
+.progress .value {
+    background: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
 }
